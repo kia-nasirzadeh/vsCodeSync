@@ -5,7 +5,16 @@
         "command": "workbench.action.togglePanel"
     },
     {
+        "key": "cmd+j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
         "key": "ctrl+b",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorFocus || terminalFocus"
+    },
+    {
+        "key": "cmd+b",
         "command": "workbench.action.focusSideBar",
         "when": "editorFocus || terminalFocus"
     },
@@ -14,11 +23,23 @@
         "command": "-workbench.action.files.newUntitledFile",
     },
     {
+        "key": "cmd+n",
+        "command": "-workbench.action.files.newUntitledFile",
+    },
+    {
         "key": "ctrl+n",
         "command": "explorer.newFile",
     },
     {
+        "key": "cmd+n",
+        "command": "explorer.newFile",
+    },
+    {
         "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+    },
+    {
+        "key": "cmd+shift+n",
         "command": "explorer.newFolder",
     },
     {
