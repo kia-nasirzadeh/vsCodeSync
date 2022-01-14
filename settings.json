@@ -1,6 +1,8 @@
 {
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "files.autoSave": "afterDelay"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }

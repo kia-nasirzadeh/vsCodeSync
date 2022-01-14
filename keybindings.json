@@ -1,3 +1,40 @@
 // Place your key bindings in this file to override the defaults
 [
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorFocus || terminalFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile",
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+    },
+    {
+        "key": "alt+[",
+        "command": "cursorLineStart",
+    },
+    {
+        "key": "alt+]",
+        "command": "cursorLineEnd",
+    },
+    {
+        "key": "alt+shift+[",
+        "command": "cursorLineStartSelect",
+    },
+    {
+        "key": "alt+shift+]",
+        "command": "cursorLineEndSelect",
+    }
 ]
